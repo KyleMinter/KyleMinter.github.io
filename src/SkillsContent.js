@@ -1,5 +1,5 @@
 import React from 'react';
-import './SkillsContent.css';
+import Accordion from 'react-bootstrap/Accordion';
 
 export default function SkillsContent({activeTab})
 {
@@ -10,10 +10,11 @@ export default function SkillsContent({activeTab})
     }
     
     return (
-        <div>
-            <div className="container">
-                {skillsContent}
-            </div>
-        </div>
+        <Accordion>
+            <Accordion.Item>
+                <Accordion.Header>Skills</Accordion.Header>
+                <Accordion.Body>skillsbody</Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
     );
 }

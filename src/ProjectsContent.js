@@ -1,7 +1,16 @@
 import React from 'react';
-import './ProjectsContent.css';
+import Accordion from 'react-bootstrap/Accordion';
 import SOFTWARE_ACTIVE_TAB from './PorfolioTabs';
 import LD_ENV_ART_ACTIVE_TAB from './PorfolioTabs';
+
+function ProjectCard()
+{
+    return (
+        <div>
+            <p>projectcard</p>
+        </div>
+    );
+}
 
 export default function ProjectsContent({activeTab})
 {
@@ -20,10 +29,11 @@ export default function ProjectsContent({activeTab})
     }
     
     return (
-        <div>
-            <div className="container">
-                {projectsContent}
-            </div>
-        </div>
+        <Accordion>
+            <Accordion.Item>
+                <Accordion.Header>Projects</Accordion.Header>
+                <Accordion.Body>projectsbody</Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
     );
 }
