@@ -8,7 +8,7 @@ import ProjectsContent from './ProjectsContent'
 const SOFTWARE_ACTIVE_TAB = [1, "Software Development"];
 const LD_ENV_ART_ACTIVE_TAB = [2, "Level Design & Environment Art"];
 
-export default function PorfolioTabs()
+export default function PortfolioTabs()
 {
     return (
         <Container>

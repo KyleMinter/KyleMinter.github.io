@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
-import SOFTWARE_ACTIVE_TAB from './PorfolioTabs';
-import LD_ENV_ART_ACTIVE_TAB from './PorfolioTabs';
+import SOFTWARE_ACTIVE_TAB from './PortfolioTabs';
+import LD_ENV_ART_ACTIVE_TAB from './PortfolioTabs';
 
 function ProjectCard()
 {
