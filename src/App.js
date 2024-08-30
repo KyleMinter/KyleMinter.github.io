@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import BioPage from './bio_page/BioPage';
-import PortfolioTabs from './PortfolioTabs';
+import PortfolioTabs from './portfolio_page/PortfolioTabs';
 
 function App() {
   return (
