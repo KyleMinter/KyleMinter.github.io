@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header';
+import BioPage from './bio_page/BioPage';
 import PortfolioTabs from './PortfolioTabs';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      
-      <PortfolioTabs />
+      <BioPage />
+      <PortfolioTabs id="portfolio_tabs" />
     </div>
   );
 }
