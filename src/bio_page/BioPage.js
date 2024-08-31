@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import BioPageContent from './BioPageContent';
-import BioPageFooter from './BioPageFooter';
+import PageFooter from '../footers/PageFooter';
 
 export default function BioPage()
 {
@@ -15,7 +15,7 @@ export default function BioPage()
                 </Col>
             </Row>
 
-            <BioPageFooter/>
+            <PageFooter icon={"bi bi-chevron-bar-down"} text={"View Portfolio Below"} link={"#portfolio_tabs"} />
         </Container>
     );
 }
