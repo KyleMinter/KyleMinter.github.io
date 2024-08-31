@@ -7,16 +7,14 @@ export default function BioPageFooter()
 {
     return (
         <Container
-            className="well p-5 mb-4 bg-light rounded-3 position-relative"
+            className="flex-item p-4 mb-4 bg-light rounded-2"
         >
-            <h2>Portfolio</h2>
-            <hr/>
             <Button
-                variant="primary"
+                variant="secondary"
                 size="lg"
-                href="#portfolio_tabs"
+                href="portfolio_tabs"
             >
-                View Below
+                View Portfolio Below
             </Button>
         </Container>
         

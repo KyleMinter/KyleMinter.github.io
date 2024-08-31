@@ -1,12 +1,13 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 export default function BioPageFooter()
 {
     return (
-        <div>
-            header
-        </div>
+        <Navbar className="bg-body-tertiary">
+            <Navbar.Brand>You're mom</Navbar.Brand>
+        </Navbar>
         
     );
 }
