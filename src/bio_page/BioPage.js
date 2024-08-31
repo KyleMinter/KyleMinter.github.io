@@ -15,7 +15,7 @@ export default function BioPage()
                 </Col>
             </Row>
 
-            <BioPageFooter/>
+                <BioPageFooter/>
         </Container>
     );
 }
