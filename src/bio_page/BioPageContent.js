@@ -22,7 +22,7 @@ export default function BioPageContent()
             <Container className="w-50">
                 <p>I’m a Software Developer with full-stack development experience in various environments. In May 2025, I graduated with a Bachelor's of Computer Science from the University of North Texas.</p>
                 <br/>
-                <p>I'm also a Level Designer and Environment Artist with a majority of my experience in making maps for Counter-Strike. Most of my work is done as hobby and out of love of the process, but I am also open to related positions and/or commissions</p>
+                <p>I'm also a Level Designer and Environment Artist with a majority of my experience in making maps for Counter-Strike. Most of my work is done as hobby and out of love for the process, but I am also open to related positions and/or commissions</p>
                 <br/>
                 <p>You can view both my Software Development & Level Design/Environment Art portfolios below.</p>
             </Container>
