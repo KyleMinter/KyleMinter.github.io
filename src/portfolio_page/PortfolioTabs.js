@@ -15,12 +15,13 @@ export default function PortfolioTabs()
             <Tabs
                 fill
                 justify
+                className="bg-secondary rounded"
                 defaultActiveKey={SOFTWARE_ACTIVE_TAB}
             >
                 <Tab
                     eventKey={SOFTWARE_ACTIVE_TAB}
                     title="Software Development"
-                    className="p-5 border border-top-0 border-subtle rounded-bottom"
+                    className="p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
                 >
                     software
                     <SkillsContent />
@@ -30,7 +31,7 @@ export default function PortfolioTabs()
                 <Tab
                     eventKey={LD_ENV_ART_ACTIVE_TAB}
                     title="Level Design & Environment Art"
-                    className="p-5 border border-top-0 border-subtle rounded-bottom"
+                    className="p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
                 >
                     art
                     <SkillsContent />

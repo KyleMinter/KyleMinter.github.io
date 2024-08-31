@@ -13,7 +13,7 @@ export default function IconBadge({icon = "bi bi-question-circle-fill", text = "
                 onMouseLeave={() => setHovered(false)}
                 className=
                 {
-                    (hovered && link != null) ? "bg-dark bg-gradient m-1 p-0" : "bg-dark m-1 p-0"
+                    (hovered && link != null) ? "bg-primary bg-gradient m-1 p-0" : "bg-primary m-1 p-0"
                 }
             >
                     <Stack direction="horizontal">
