@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
 
 export default function IconBadge({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
 {
