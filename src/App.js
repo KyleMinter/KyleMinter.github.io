@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <BioPage />
-      <PortfolioTabs id="portfolio_tabs" />
+      <div id="portfolio_tabs">
+        <PortfolioTabs/>
+      </div>
     </div>
   );
 }

@@ -8,14 +8,14 @@ import BioPageFooter from './BioPageFooter';
 export default function BioPage()
 {
     return (
-        <Container fluid className="vh-100 d-flex flex-column bg-primary">
+        <Container fluid className="vh-100 d-flex flex-column bg-primary px-0">
             <Row className="flex-grow-1">
                 <Col className="align-self-center">
                     <BioPageContent/>
                 </Col>
             </Row>
 
-                <BioPageFooter/>
+            <BioPageFooter/>
         </Container>
     );
 }

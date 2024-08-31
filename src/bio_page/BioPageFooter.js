@@ -1,20 +1,23 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
+import React, {useState} from 'react';
 
 
 export default function BioPageFooter()
 {
+    const [hovered, setHovered] = useState(false);
+    
     return (
-        <Container className="bg-light rounded-2">
-            <Button
-                variant="secondary"
-                size="lg"
-                href="portfolio_tabs"
+        <a href="#portfolio_tabs" className="text-decoration-none">
+            <div
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
+                className=
+                {
+                    (hovered) ? "bg-gradient text-light" : "text-light"
+                }
             >
-                View Portfolio Below
-            </Button>
-        </Container>
-        
+                <h2 className="display-6 my-0">View Portfolio Below</h2>
+                <i class="display-5 my-0 bi bi-chevron-bar-down"/>
+            </div>
+        </a>
     );
 }
