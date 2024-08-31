@@ -6,9 +6,7 @@ import Button from 'react-bootstrap/Button';
 export default function BioPageFooter()
 {
     return (
-        <Container
-            className="flex-item p-4 mb-4 bg-light rounded-2"
-        >
+        <Container className="bg-light rounded-2">
             <Button
                 variant="secondary"
                 size="lg"
