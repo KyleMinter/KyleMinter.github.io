@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './PageFooter.css';
 
 
-export default function BioPageFooter({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
+export default function PageFooter({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
 {
     const [hovered, setHovered] = useState(false);
 
