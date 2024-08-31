@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './BioPageFooter.css';
 
 
 export default function BioPageFooter()
@@ -12,10 +13,10 @@ export default function BioPageFooter()
                 onMouseLeave={() => setHovered(false)}
                 className=
                 {
-                    (hovered) ? "bg-gradient text-light" : "text-light"
+                    (hovered) ? "gradient_background text-light" : "text-light"
                 }
             >
-                <h2 className="display-6 my-0">View Portfolio Below</h2>
+                <h2 className="display-6 my-0 pt-3">View Portfolio Below</h2>
                 <i class="display-5 my-0 bi bi-chevron-bar-down"/>
             </div>
         </a>
