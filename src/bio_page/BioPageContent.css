@@ -1,0 +1,38 @@
+@media (min-width: 0px) {
+    .name {
+        font-size: 2em; 
+    }
+}
+
+@media (min-width: 330px) {
+    .name {
+        font-size: 4em; 
+    }
+}
+
+@media (min-width: 425px) {
+    .name {
+        font-size: 5em; 
+    }
+}
+
+@media (min-width: 768px) {
+    .name {
+        font-size: 8em; 
+    }
+}
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-custom {
+        width: 850px;
+    }
+    .container-large {
+        width: 1500px;
+    }
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}

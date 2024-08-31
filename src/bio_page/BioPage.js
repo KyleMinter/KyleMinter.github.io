@@ -8,7 +8,7 @@ import BioPageFooter from './BioPageFooter';
 export default function BioPage()
 {
     return (
-        <Container fluid className="vh-100 d-flex flex-column bg-primary px-0">
+        <Container fluid className="min-vh-100 d-flex flex-column bg-primary px-0">
             <Row className="flex-grow-1">
                 <Col className="align-self-center">
                     <BioPageContent/>
@@ -19,8 +19,3 @@ export default function BioPage()
         </Container>
     );
 }
-
-/*<Row
-            fluid
-            className="vh-100 bg-primary d-flex"
-        >*/
