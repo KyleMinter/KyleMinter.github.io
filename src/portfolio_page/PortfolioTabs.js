@@ -15,8 +15,6 @@ export default function PortfolioTabs()
 {
     const baseClassNames = "p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
 
-    const [key, setKey] = useState(SOFTWARE_ACTIVE_TAB);
-
     return (
         <Container>
             <Tabs
@@ -24,7 +22,6 @@ export default function PortfolioTabs()
                 justify
                 className="bg-secondary rounded"
                 defaultActiveKey={SOFTWARE_ACTIVE_TAB}
-                activeKab={key}
             >
                 <Tab
                     eventKey={SOFTWARE_ACTIVE_TAB}
