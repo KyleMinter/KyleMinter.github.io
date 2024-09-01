@@ -5,7 +5,7 @@ export default function Icon({icon = "bi bi-question-circle-fill", text = "<Plac
 {
     const [hovered, setHovered] = useState(false);
     
-    const baseClassNames = "text-light py-2 px-4 rounded-4 border border-5 border-success";
+    const baseClassNames = "text-light py-2 px-4 m-2 rounded-4 border border-1 border-success";
 
     return (
         <a href={link} className="text-decoration-none">

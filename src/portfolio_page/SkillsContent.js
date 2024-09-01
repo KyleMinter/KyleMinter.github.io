@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SkillsIcon from '../icons/SkillsIcon';
@@ -17,17 +17,16 @@ export default function SkillsContent({jsonContent})
     const renderedContent = jsonContent.map((content) => renderContent(content))
 
     return (
-        <Accordion>
-            <Accordion.Item>
-                <Accordion.Header>Skills</Accordion.Header>
-                <Accordion.Body>
-                    <Row className="row-cols-auto">
-                        {renderedContent}
-                    </Row>
-                </Accordion.Body>
-            </Accordion.Item>
-        </Accordion>
+        <Container className="text-light">
+            <h3 className="display-5 my-0">Skills</h3>
+            
+            <hr className="my-1"/>
+
+            <Row className="row-cols-auto justify-content-center">
+                {renderedContent}
+            </Row>
+
+            <hr className="my-1"/>
+        </Container>
     );
 }
-//skillsSoftwareDevelopment.map((content) => renderComponents(content));
-//skillsEnvArtContentJson.map((content) => renderComponents(content));

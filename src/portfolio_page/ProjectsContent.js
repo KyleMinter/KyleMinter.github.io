@@ -1,39 +1,32 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import SOFTWARE_ACTIVE_TAB from './PortfolioTabs';
-import LD_ENV_ART_ACTIVE_TAB from './PortfolioTabs';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-function ProjectCard()
-{
-    return (
-        <div>
-            <p>projectcard</p>
-        </div>
-    );
-}
 
-export default function ProjectsContent({activeTab})
+const renderContent = (content) => {
+    return React.createElement(() => (
+        <Col>
+            
+        </Col>
+    ));
+};
+
+export default function ProjectsContent({jsonContent})
 {
-    let projectsContent = "content";
-    switch (activeTab)
-    {
-        case SOFTWARE_ACTIVE_TAB:
-            //stuff
-            break;
-        case LD_ENV_ART_ACTIVE_TAB:
-            //stuff
-            break;
-        default:
-            //stuff
-            break;
-    }
-    
+    const renderedContent = jsonContent.map((content) => renderContent(content))
+
     return (
-        <Accordion>
-            <Accordion.Item>
-                <Accordion.Header>Projects</Accordion.Header>
-                <Accordion.Body>projectsbody</Accordion.Body>
-            </Accordion.Item>
-        </Accordion>
+        <Container className="text-light mt-3">
+            <h3 className="display-5">Projects</h3>
+            
+            <hr className="my-1"/>
+
+            <Row className="row-cols-auto justify-content-center">
+                {renderedContent}
+            </Row>
+
+            <hr className="my-1"/>
+        </Container>
     );
 }

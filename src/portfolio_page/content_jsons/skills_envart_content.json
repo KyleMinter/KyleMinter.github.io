@@ -1,0 +1,26 @@
+[
+    {
+        "icon": "bi bi-github",
+        "text": "C++",
+        "link": "https://github.com/KyleMinter",
+        "background": "bg-primary"
+    },
+    {
+        "icon": "bi bi-github",
+        "text": "ld & env art",
+        "link": "https://github.com/KyleMinter",
+        "background": "bg-primary"
+    },
+    {
+        "icon": "bi bi-github",
+        "text": "suuuuuuuuuuuuuuupppppppppeeeeeeeeeeeeer long name",
+        "link": "https://github.com/KyleMinter",
+        "background": "bg-primary"
+    },
+    {
+        "icon": "bi bi-github",
+        "text": "suuuuuuuuuuuuuuupppppppppeeeeeeeeeeeeer long name",
+        "link": "https://github.com/KyleMinter",
+        "background": "bg-primary"
+    }
+]
