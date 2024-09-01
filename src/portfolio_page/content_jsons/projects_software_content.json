@@ -1,14 +1,36 @@
 [
     {
-        "icon": "bi bi-github",
-        "text": "C++",
-        "link": "https://github.com/KyleMinter",
-        "background": "bg-primary"
-    },
-    {
-        "icon": "bi bi-github",
-        "text": "software",
-        "link": "https://github.com/KyleMinter",
-        "background": "bg-primary"
+        "title": "Project Title software",
+        "description": "some random words and shit",
+        "thumbnail": "./content_jsons/images/software/IMG_7268.png",
+        "icons":
+        [
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            }
+        ]
     }
 ]
