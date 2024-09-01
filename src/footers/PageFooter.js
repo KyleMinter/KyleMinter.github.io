@@ -19,7 +19,7 @@ export default function PageFooter({icon = "bi bi-question-circle-fill", text = 
                 }
             >
                 <h2 className="display-6 my-0 pt-3">{text}</h2>
-                <i class={`display-5 my-0 ${icon}`}/>
+                <i className={`display-5 my-0 ${icon}`}/>
             </div>
         </a>
     );
