@@ -7,7 +7,7 @@ import SkillsIcon from '../icons/SkillsIcon';
 const renderContent = (content) => {
     return React.createElement(() => (
         <Col>
-            <SkillsIcon icon={content.icon} text={content.text} link={content.link} background={content.background} />
+            <SkillsIcon icon={content.icon} text={content.text} link={content.link} />
         </Col>
     ));
 };

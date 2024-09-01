@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import Container from 'react-bootstrap/Container';
 
-export default function Icon({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null, background = ""})
+export default function Icon({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
 {
     const [hovered, setHovered] = useState(false);
     
-    const baseClassNames = "text-light py-2 px-4 m-2 rounded-4 border border-1 border-success";
+    const baseClassNames = "bg-dark text-light py-2 px-4 m-2 rounded-2 shadow-lg";
 
     return (
         <a href={link} className="text-decoration-none">
@@ -14,7 +14,7 @@ export default function Icon({icon = "bi bi-question-circle-fill", text = "<Plac
                 onMouseLeave={() => setHovered(false)}
                 className=
                 {
-                    (hovered && background !== "" && link != null) ? (`${background} ${baseClassNames} bg-gradient`) : (`${background} ${baseClassNames}`)
+                    (hovered && link != null) ? (`${baseClassNames} bg-gradient`) : (`${baseClassNames}`)
                 }
             >
                 <i className={`${icon} display-1`} styles="font-size: 2rem;"/>

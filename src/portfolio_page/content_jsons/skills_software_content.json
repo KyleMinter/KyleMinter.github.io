@@ -2,13 +2,11 @@
     {
         "icon": "bi bi-github",
         "text": "C++",
-        "link": "https://github.com/KyleMinter",
-        "background": "bg-primary"
+        "link": "https://github.com/KyleMinter"
     },
     {
         "icon": "bi bi-github",
         "text": "software",
-        "link": "https://github.com/KyleMinter",
-        "background": "bg-primary"
+        "link": "https://github.com/KyleMinter"
     }
 ]
