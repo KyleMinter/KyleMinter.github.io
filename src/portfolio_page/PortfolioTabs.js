@@ -10,6 +10,8 @@ const LD_ENV_ART_ACTIVE_TAB = [2, "Level Design & Environment Art"];
 
 export default function PortfolioTabs()
 {
+    const baseClassNames = "p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
+
     return (
         <Container>
             <Tabs
@@ -21,7 +23,7 @@ export default function PortfolioTabs()
                 <Tab
                     eventKey={SOFTWARE_ACTIVE_TAB}
                     title="Software Development"
-                    className="p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
+                    className={baseClassNames}
                 >
                     software
                     <SkillsContent />
@@ -31,7 +33,7 @@ export default function PortfolioTabs()
                 <Tab
                     eventKey={LD_ENV_ART_ACTIVE_TAB}
                     title="Level Design & Environment Art"
-                    className="p-5 bg-secondary border border-top-0 border-subtle rounded-bottom"
+                    className={baseClassNames}
                 >
                     art
                     <SkillsContent />
