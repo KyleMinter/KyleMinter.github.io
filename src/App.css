@@ -24,3 +24,12 @@
   --Color2: rgba(255, 255, 255, .1);
   transition: --Color1 .3s, --Color2 .3;
 }
+
+.hover-darken {
+  transition: all .3s;
+}
+
+.hover-darken:hover {
+  filter: brightness(60%);
+  transition: all .3s;
+}
