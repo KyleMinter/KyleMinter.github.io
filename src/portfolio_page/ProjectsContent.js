@@ -21,11 +21,12 @@ const renderCards = (content) => {
                     {renderedIcons}
             </Container>
 
-            <Container className="bg-tertiary sliding-tab text-start border-top px-0 pt-1 flex-grow-0 flex-shrink-0 h-75">
-                <span className="mx-1">{renderedIconBadges}</span>
-                <hr className="my-1"/>
-                <p className="mx-3 my-2">{content.description}</p>
-                {content.hasOwnProperty("carouselImages") ? "true" : "false"}
+            <Container className="bg-dark sliding-tab text-start border-top border-bottom border-tertiary p-1 flex-grow-0 flex-shrink-0">
+                {renderedIconBadges}
+            </Container>
+
+            <Container className="bg-primary sliding-tab text-start px-3 py-2 flex-grow-0 flex-shrink-0 h-100">
+                    <p>{content.description}</p>
             </Container>
         </Container>
     ));
@@ -65,3 +66,5 @@ export default function ProjectsContent({jsonContent})
         </Container>
     );
 }
+
+//{content.hasOwnProperty("carouselImages") ? "true" : "false"}
