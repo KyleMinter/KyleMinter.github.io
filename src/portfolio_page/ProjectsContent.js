@@ -1,48 +1,46 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
 import IconBadge from '../icons/IconBadge';
 import Icon from '../icons/Icon';
+import './ProjectsContent.css';
 
 
+// Renders the project cards.
 const renderCards = (content) => {
     const renderedIcons = content.icons.map((icons) => renderIcons(icons));
     const renderedIconBadges = content.iconBadges.map((iconBadges) => renderIconBadges(iconBadges));
     
     return React.createElement(() => (
-        <Col>
-            <Card className="shadow-lg text-start bg-dark text-light my-2 rounded-3 border-0" style={{width: "24rem", height: "24rem"}}>
-                <Card.Img className="rounded-top" variant="top" src={require(`${content.thumbnail}`)} style={{width:"auto", height:"auto", overflow:"hidden", objectFit:"cover", margin:"5px 5px 0px 5px"}}/>
-                <Card.Body>
-                    <Card.Title>
-                        <div className="d-flex">
-                            <div className="flex-grow-1">{content.title}</div>
-                            {renderedIcons}
-                        </div>
-                    </Card.Title>
-                    <Card.Text>
-                        <hr className="p-0 m-1"/>
-                        {renderedIconBadges}
-                        <hr className="p-0 m-1"/>
-                        <p>{content.description}</p>
-                        {content.hasOwnProperty("carouselImages") ? "true" : "false"}
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-        </Col>
+        <Container className="project-card m-2 p-0 rounded-2 d-flex flex-column overflow-hidden" style={{height: "16rem", maxWidth: "25rem",}}>
+            <Container className="bg-primary p-0 flex-grow-0 flex-shrink-0 d-inline-block overflow-hidden position-relative h-75">
+                <img src={require(`${content.thumbnail}`)} alt="" className="object-fit-cover w-100 h-100"/>
+            </Container>
+            
+            <Container className="sliding-tab bg-dark p-2 text-start d-flex align-items-center flex-grow-0 flex-shrink-0 h-25">
+                    <h5 className="p-2 flex-grow-1">{content.title}</h5>
+                    {renderedIcons}
+            </Container>
+
+            <Container className="bg-tertiary sliding-tab text-start border-top px-0 pt-1 flex-grow-0 flex-shrink-0 h-75">
+                <span className="mx-1">{renderedIconBadges}</span>
+                <hr className="my-1"/>
+                <p className="mx-3 my-2">{content.description}</p>
+                {content.hasOwnProperty("carouselImages") ? "true" : "false"}
+            </Container>
+        </Container>
     ));
 };
 
+// Renders the Icons for each of the project cards.
 const renderIcons = (icons) => {
     return React.createElement(() => (
-        <div className="mx-1">
+        <h4 className="p-1">
             <Icon icon={icons.icon} link={icons.link}/>
-        </div>
+        </h4>
     ));
 };
 
+// Renders the IconBadges for each of the project cards.
 const renderIconBadges = (iconBadges) => {
     return React.createElement(() => (
         <IconBadge icon={iconBadges.icon} text={iconBadges.text} link={iconBadges.text} />
@@ -59,12 +57,11 @@ export default function ProjectsContent({jsonContent})
             
             <hr className="my-1"/>
 
-            <Row className="row-cols-auto justify-content-center">
+            <div className="d-flex flex-wrap justify-content-center" style={{}}>
                 {renderedContent}
-            </Row>
+            </div>
 
             <hr className="my-1"/>
         </Container>
     );
 }
-//<Card.Img className="border-5 border-dark" variant="top" src={require(`${content.thumbnail}`)} style={{height: "12rem", overflow:"hidden", borderStyle:"solid", borderRadius:" 8px"}}/>

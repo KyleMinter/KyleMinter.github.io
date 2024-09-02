@@ -2,7 +2,109 @@
     {
         "title": "Project Title software",
         "description": "some random words and shit",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-linkedin",
+                "link": "https://github.com/KyleMinter"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            }
+        ]
+    },
+    {
+        "title": "Project Title software",
+        "description": "some random words and shit",
         "thumbnail": "./content/images/software/IMG_7268.png",
+        "icons":
+        [
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            }
+        ]
+    },
+    {
+        "title": "Project Title software",
+        "description": "some random words and shit",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "link": "https://github.com/KyleMinter"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            },
+            {
+                "icon": "bi bi-github",
+                "text": "GitHub",
+                "link": "https://github.com/KyleMinter"
+            }
+        ]
+    },
+    {
+        "title": "Project Title software",
+        "description": "some random words and shit",
+        "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
             {

@@ -1,0 +1,8 @@
+.project-card > .sliding-tab {
+    transition: all .3s;
+    transform: translateY(0rem);
+}
+
+.project-card:hover > .sliding-tab {
+    transform: translateY(-11rem);
+}
