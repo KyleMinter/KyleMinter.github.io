@@ -1,3 +1,25 @@
 .App {
   text-align: center;
 }
+
+@property --Color1 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgba(255, 255, 255, 0);
+}
+
+@property --Color2 {
+  syntax: '<color>';
+  inherits: false;
+  initial-value: rgb(255, 255, 255, 0);
+}
+
+.hover-gradient {
+  background: linear-gradient(var(--Color1), var(--Color2));
+  transition: --Color1 .3s, --Color2 .3s;
+}
+
+.hover-gradient:hover {
+  --Color1: rgba(255, 255, 255, 0);
+  --Color2: rgba(255, 255, 255, .1);
+}
