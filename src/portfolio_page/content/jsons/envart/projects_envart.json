@@ -1,8 +1,8 @@
 [
     {
-        "title": "Project Title software",
+        "title": "Project Title envart",
         "description": "some random words and shit",
-        "thumbnail": "./content_jsons/images/software/IMG_7268.png",
+        "thumbnail": "./content/images/software/IMG_7268.png",
         "icons":
         [
             {
@@ -31,6 +31,11 @@
                 "text": "GitHub",
                 "link": "https://github.com/KyleMinter"
             }
+        ],
+        "carouselImages":
+        [
+            "./content/images/software/IMG_7268.png",
+            "./content/images/software/IMG_7268.png"
         ]
     }
 ]

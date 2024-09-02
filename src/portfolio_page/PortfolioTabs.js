@@ -6,11 +6,11 @@ import Tab from 'react-bootstrap/Tab';
 import SkillsContent from './SkillsContent';
 import ProjectsContent from './ProjectsContent'
 
-import skillsSoftwareDevelopment from './content_jsons/skills_software_content.json';
-import skillsEnvironmentArt from './content_jsons/skills_envart_content.json';
+import skillsSoftwareDevelopment from './content/jsons/software/skills_software.json';
+import skillsEnvironmentArt from './content/jsons/envart/skills_envart.json';
 
-import projectsSoftwareDevelopment from './content_jsons/projects_software_content.json';
-import projectsEnvironmentArt from './content_jsons/projects_envart_content.json';
+import projectsSoftwareDevelopment from './content/jsons/software/projects_software.json';
+import projectsEnvironmentArt from './content/jsons/envart/projects_envart.json';
 
 const SOFTWARE_ACTIVE_TAB = "Software Development";
 const LD_ENV_ART_ACTIVE_TAB = "Level Design & Environment Art";
