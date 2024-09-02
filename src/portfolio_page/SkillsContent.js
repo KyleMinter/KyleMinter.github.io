@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SkillsIcon from '../icons/SkillsIcon';
+import LargeNamedIcon from '../icons/LargeNamedIcon';
 
 const renderContent = (content) => {
     return React.createElement(() => (
         <Col>
-            <SkillsIcon icon={content.icon} text={content.text} link={content.link} />
+            <LargeNamedIcon icon={content.icon} text={content.text} link={content.link} />
         </Col>
     ));
 };

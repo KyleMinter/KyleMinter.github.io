@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Container from 'react-bootstrap/Container';
 
-export default function LargeNamedIcon({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
+export default function Icon({icon = "bi bi-question-circle-fill", text = "<Placeholder>", link = null})
 {
     const [hovered, setHovered] = useState(false);
     
