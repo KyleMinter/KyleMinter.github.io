@@ -13,8 +13,8 @@ const renderCards = (content) => {
     
     return React.createElement(() => (
         <Col>
-            <Card className="shadow-lg text-start bg-dark text-light my-2 rounded-2 border-0" style={{width: "24rem"}}>
-                <Card.Img className="border-5 border-dark" variant="top" src={require(`${content.thumbnail}`)} style={{height: "50%", borderStyle:"solid", borderRadius:" 8px"}}/>
+            <Card className="shadow-lg text-start bg-dark text-light my-2 rounded-3 border-0" style={{width: "24rem", height: "24rem"}}>
+                <Card.Img className="rounded-top" variant="top" src={require(`${content.thumbnail}`)} style={{width:"auto", height:"auto", overflow:"hidden", objectFit:"cover", margin:"5px 5px 0px 5px"}}/>
                 <Card.Body>
                     <Card.Title>
                         <div className="d-flex">
@@ -67,3 +67,4 @@ export default function ProjectsContent({jsonContent})
         </Container>
     );
 }
+//<Card.Img className="border-5 border-dark" variant="top" src={require(`${content.thumbnail}`)} style={{height: "12rem", overflow:"hidden", borderStyle:"solid", borderRadius:" 8px"}}/>
