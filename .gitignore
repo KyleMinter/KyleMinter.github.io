@@ -3,6 +3,8 @@
 # code-workspace
 *.code-workspace
 
+/misc
+
 # dependencies
 /node_modules
 /.pnp
