@@ -9,7 +9,7 @@ export default function IconBadge({icon = "question", text = "<Placeholder>", li
 
     const content = <Badge className="bg-primary hover-gradient m-1 p-0">
         <Stack direction="horizontal">
-            <div className="bg-gradient rounded-start-2 p-2 d-flex flex-column justify-content-center">
+            <div className="bg-gradient rounded-start-2 d-flex p-2 flex-column justify-content-center" style={{fontSize: "1rem"}}>
                 {iconComponent}
             </div>
             <div className="vr"/>
