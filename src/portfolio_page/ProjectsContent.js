@@ -18,7 +18,7 @@ const renderCards = (content) => {
 
             <span className="sliding-tab flex-grow-0 flex-shrink-0" style={{height: "120%"}}>
                 <Container className="bg-dark px-2 d-flex align-items-center" style={{height: "17%"}}>
-                    <h5 className="px-2 m-0 flex-grow-1">{content.title}</h5>
+                    <h4 className="px-2 m-0 flex-grow-1">{content.title}</h4>
                     <span className="fs-2 pb-1 px-3"><Icon icon={"arrowup"} /></span>
                 </Container>
 

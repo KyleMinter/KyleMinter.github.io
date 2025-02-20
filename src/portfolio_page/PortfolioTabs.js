@@ -12,8 +12,8 @@ import skillsEnvironmentArt from './content/jsons/envart/skills_envart.json';
 import projectsSoftwareDevelopment from './content/jsons/software/projects_software.json';
 import projectsEnvironmentArt from './content/jsons/envart/projects_envart.json';
 
-const SOFTWARE_ACTIVE_TAB = "Software Development";
-const LD_ENV_ART_ACTIVE_TAB = "Level Design & Environment Art";
+const SOFTWARE_ACTIVE_TAB = "Software Development Portfolio";
+const LD_ENV_ART_ACTIVE_TAB = "Level Design & Environment Art Portfolio";
 
 export default function PortfolioTabs()
 {
