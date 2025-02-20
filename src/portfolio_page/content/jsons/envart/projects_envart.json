@@ -6,28 +6,28 @@
         "icons":
         [
             {
-                "icon": "bi bi-github",
+                "icon": "typescript",
                 "link": "https://github.com/KyleMinter"
             },
             {
-                "icon": "bi bi-github",
+                "icon": "typescript",
                 "link": "https://github.com/KyleMinter"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "bi bi-github",
+                "icon": "github",
                 "text": "GitHub",
                 "link": "https://github.com/KyleMinter"
             },
             {
-                "icon": "bi bi-github",
+                "icon": "github",
                 "text": "GitHub",
                 "link": "https://github.com/KyleMinter"
             },
             {
-                "icon": "bi bi-github",
+                "icon": "github",
                 "text": "GitHub",
                 "link": "https://github.com/KyleMinter"
             }

@@ -1,10 +1,15 @@
 import React from 'react';
+import IconMap from './IconMap';
 
-export default function Icon({icon = "bi bi-question-circle-fill", link = null})
+export default function IconNew({icon = "question", link = null})
 {
+    const iconComponent = IconMap[icon];
+    
     return (
         <a href={link} className="hover-darken text-light">
-            <i className={icon} />
+            <div className="d-flex flex-column justify-content-center">
+                {iconComponent}
+            </div>
         </a>
     );
 }

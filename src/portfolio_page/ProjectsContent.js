@@ -37,6 +37,7 @@ const renderCards = (content) => {
 
 // Renders the Icons for each of the project cards.
 const renderIcons = (icons) => {
+
     return React.createElement(() => (
         <h4 className="px-1">
             <Icon icon={icons.icon} link={icons.link}/>

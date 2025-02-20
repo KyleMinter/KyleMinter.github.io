@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import SkillsContent from './SkillsContent';
-import ProjectsContent from './ProjectsContent'
+import ProjectsContent from './ProjectsContent';
 
 import skillsSoftwareDevelopment from './content/jsons/software/skills_software.json';
 import skillsEnvironmentArt from './content/jsons/envart/skills_envart.json';

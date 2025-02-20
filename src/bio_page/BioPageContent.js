@@ -15,17 +15,17 @@ export default function BioPageContent()
                 <hr className="mb-1"/>
 
                 <Row className="row-cols-auto justify-content-center">
-                    <Col className="p-0"><IconBadge icon={"bi bi-envelope-at"} text={"Email"} link="mailto:kyle.minter.1@gmail.com"/></Col>
-                    <Col className="p-0"><IconBadge icon={"bi bi-linkedin"} text={"LinkedIn"} link={"https://www.linkedin.com/in/minter-kyle/"}/></Col>
-                    <Col className="p-0"><IconBadge icon={"bi bi-github"} text={"GitHub"} link={"https://github.com/KyleMinter"}/></Col>
-                    <Col className="p-0"><IconBadge icon={"bi bi-linkedin"} text={"ArtStation"} link={"https://kyleminter.artstation.com/"}/></Col>
+                    <Col className="p-0"><IconBadge icon={"email"} text={"Email"} link="mailto:kyle.minter.1@gmail.com"/></Col>
+                    <Col className="p-0"><IconBadge icon={"linkedin"} text={"LinkedIn"} link={"https://www.linkedin.com/in/minter-kyle/"}/></Col>
+                    <Col className="p-0"><IconBadge icon={"github"} text={"GitHub"} link={"https://github.com/KyleMinter"}/></Col>
+                    <Col className="p-0"><IconBadge icon={"artstation"} text={"ArtStation"} link={"https://kyleminter.artstation.com/"}/></Col>
                 </Row>
 
                 <hr className="mt-1"/>
             </Container>
 
             <div>
-                <p>I’m a Software Developer with full-stack development experience in various languages and frameworks. In May 2025, I will graduate with a Bachelor's of Computer Science from the University of North Texas.</p>
+                <p>I'm a Software Developer with full-stack development experience in various languages and frameworks. In May 2025, I will graduate with a Bachelor's of Computer Science from the University of North Texas.</p>
                 <br/>
                 <p>I'm also a Level Designer and Environment Artist with a majority of my experience in making maps for Counter-Strike. Most of my work is done as hobby and out of love for the process, but I am also open to related positions and/or commissions</p>
                 <br/>

@@ -1,11 +1,11 @@
 [
     {
-        "icon": "bi bi-github",
+        "icon": "github",
         "text": "C++",
         "link": "https://github.com/KyleMinter"
     },
     {
-        "icon": "bi bi-github",
+        "icon": "github",
         "text": "software",
         "link": "https://github.com/KyleMinter"
     }
