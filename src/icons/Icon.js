@@ -1,7 +1,7 @@
 import React from 'react';
 import IconMap from './IconMap';
 
-export default function IconNew({icon = "question", link = null})
+export default function Icon({icon = "question", link = null})
 {
     const iconComponent = IconMap[icon];
     

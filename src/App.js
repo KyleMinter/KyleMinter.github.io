@@ -19,7 +19,7 @@ function App() {
                 </Col>
             </Row>
 
-            <PageFooter icon={"bi bi-chevron-bar-down"} text={"View Portfolio Below"} link={"#portfolio_tabs"} />
+            <PageFooter icon={"arrowdown"} text={"View Portfolio Below"} link={"#portfolio_tabs"} />
         </Container>
       </div>
 
@@ -27,7 +27,7 @@ function App() {
         <PortfolioTabs/>
 
         <div className="mt-4">
-          <PageFooter icon={"bi bi-chevron-bar-up"} text={"Back to the top"} link={"#bio_page"} />
+          <PageFooter icon={"arrowup"} text={"Back to the top"} link={"#bio_page"} />
         </div>
 
         <SiteFooter/>

@@ -1,4 +1,6 @@
 import { AiFillQuestionCircle } from "react-icons/ai";
+import { BsChevronBarUp } from "react-icons/bs";
+import { BsChevronBarDown } from "react-icons/bs";
 
 import { MdEmail } from "react-icons/md";
 import { GrLinkedin } from "react-icons/gr";
@@ -25,6 +27,8 @@ import { SiSourceengine } from "react-icons/si";
 
 const IconMap = {
     'question': <AiFillQuestionCircle />,
+    'arrowup': <BsChevronBarUp />,
+    'arrowdown': <BsChevronBarDown />,
     
     'email': <MdEmail />,
     'linkedin': <GrLinkedin />,
