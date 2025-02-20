@@ -9,7 +9,7 @@ import SiteFooter from './footers/SiteFooter';
 
 function App() {
   return (
-    <div className="App bg-primary">
+    <div className="App bg-dark-secondary">
 
       <div id="bio_page">
         <Container fluid className="min-vh-100 d-flex flex-column px-0 bg-dark text-light">

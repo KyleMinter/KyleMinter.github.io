@@ -17,10 +17,10 @@ const LD_ENV_ART_ACTIVE_TAB = "Level Design & Environment Art";
 
 export default function PortfolioTabs()
 {
-    const baseClassNames = "py-3 bg-secondary border border-subtle rounded-bottom"
+    const baseClassNames = "py-3 bg-primary border border-subtle rounded-bottom"
 
     return (
-        <Container>
+        <Container fluid>
             <Tabs
                 fill
                 justify

@@ -5,11 +5,22 @@ export default function Icon({icon = "question", link = null})
 {
     const iconComponent = IconMap[icon];
     
-    return (
-        <a href={link} className="hover-darken text-light">
-            <div className="d-flex flex-column justify-content-center">
-                {iconComponent}
-            </div>
-        </a>
-    );
+    if (link !== null) {
+        return (
+            <a href={link} className="hover-darken text-light">
+                <div className="d-flex flex-column justify-content-center">
+                    {iconComponent}
+                </div>
+            </a>
+        );
+    }
+    else {
+        return (
+            <span className="text-light">
+                <div className="d-flex flex-column justify-content-center">
+                    {iconComponent}
+                </div>
+            </span>
+        );
+    }
 }

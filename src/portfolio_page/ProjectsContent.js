@@ -11,23 +11,23 @@ const renderCards = (content) => {
     const renderedIconBadges = content.iconBadges.map((iconBadges) => renderIconBadges(iconBadges));
     
     return React.createElement(() => (
-        <Container className="shadow-lg m-2 p-0 rounded-2 d-flex flex-column overflow-hidden text-start" style={{height: "16rem", maxWidth: "25rem",}}>
-            <Container className="bg-primary p-0 flex-grow-0 flex-shrink-0 d-inline-block overflow-hidden position-relative h-75">
+        <Container className="shadow-lg m-2 p-0 rounded-2 d-flex flex-column overflow-hidden text-start" style={{height: "20rem", maxWidth: "30rem",}}>
+            <Container className="bg-primary p-0 flex-grow-0 flex-shrink-0 d-inline-block overflow-hidden position-relative" style={{height: "80%"}}>
                 <img src={require(`${content.thumbnail}`)} alt="" className="object-fit-cover w-100 h-100"/>
             </Container>
 
-            <span className="sliding-tab flex-grow-0 flex-shrink-0 h-100 ">
-                <Container className=" bg-dark px-2 d-flex align-items-center h-25">
+            <span className="sliding-tab flex-grow-0 flex-shrink-0" style={{height: "120%"}}>
+                <Container className="bg-dark px-2 d-flex align-items-center" style={{height: "17%"}}>
                     <h5 className="px-2 m-0 flex-grow-1">{content.title}</h5>
-                    <i className="fs-2 pb-1 px-3 bi bi-chevron-bar-up"/>
+                    <span className="fs-2 pb-1 px-3"><Icon icon={"arrowup"} /></span>
                 </Container>
 
-                <Container className="bg-dark border-top border-bottom border-tertiary p-1 d-flex">
+                <Container className=" bg-dark border-top border-bottom border-tertiary p-1 d-flex">
                     <div className="flex-grow-1">{renderedIconBadges}</div>
                     <div className="d-flex flex-nowrap pt-1">{renderedIcons}</div>
                 </Container>
 
-                <Container className="bg-primary px-3 py-2 h-100">
+                <Container className="sliding-gradient bg-primary px-3 py-2 h-100">
                     <p>{content.description}</p>
                 </Container>
             </span>
@@ -57,16 +57,16 @@ export default function ProjectsContent({jsonContent})
     const renderedContent = jsonContent.map((content) => renderCards(content));
 
     return (
-        <Container className="text-light mt-3">
+        <Container fluid className="text-light mt-3">
             <h3 className="display-5">Projects</h3>
             
-            <hr className="my-1"/>
+            <hr className="my-1  mx-5"/>
 
             <div className="d-flex flex-wrap justify-content-center" style={{}}>
                 {renderedContent}
             </div>
 
-            <hr className="my-1"/>
+            <hr className="my-1  mx-5"/>
         </Container>
     );
 }

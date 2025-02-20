@@ -4,5 +4,9 @@
 }
 
 .sliding-tab:hover {
-    transform: translateY(-11rem);
+    transform: translateY(-14rem);
+}
+
+.sliding-tab:hover .sliding-gradient {
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.1));
 }

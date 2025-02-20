@@ -17,16 +17,16 @@ export default function SkillsContent({jsonContent})
     const renderedContent = jsonContent.map((content) => renderContent(content))
 
     return (
-        <Container className="text-light">
+        <Container fluid className="text-light">
             <h3 className="display-5 my-0">Skills</h3>
             
-            <hr className="my-1"/>
+            <hr className="my-1 mx-5"/>
 
             <Row className="row-cols-auto justify-content-center">
                 {renderedContent}
             </Row>
 
-            <hr className="my-1"/>
+            <hr className="my-1 mx-5"/>
         </Container>
     );
 }
