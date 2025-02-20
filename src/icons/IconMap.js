@@ -17,9 +17,13 @@ import { FaCss3Alt } from "react-icons/fa";
 
 import { FaReact } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
+import { FaWpforms } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiDotnet } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
+import { MdScreenLockPortrait } from "react-icons/md";
+import { TbApi } from "react-icons/tb";
+import { FaDatabase } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiSqlite } from "react-icons/si";
 
@@ -45,8 +49,12 @@ const IconMap = {
 
     'react': <FaReact />,
     'angular': <FaAngular />,
+    'wpf': <FaWpforms />,
     'node.js': <FaNodeJs />,
     '.net': <SiDotnet />,
+    'googlesignin': <MdScreenLockPortrait />,
+    'restapi': <TbApi />,
+    'entityframework': <FaDatabase />,
     'aws': <FaAws />,
     'postgresql': <BiLogoPostgresql />,
     'sqlite': <SiSqlite />,

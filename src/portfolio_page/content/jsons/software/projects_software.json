@@ -1,157 +1,128 @@
 [
     {
-        "title": "Project Title software",
-        "description": "some random words and shit",
+        "title": "Mind Reader",
+        "description": "A VS Code extension intended to provide an accessible experience to users with visual impairments to code Lego Mindstorms products. Includes screen reader compatibility (NVDA, JAWS, Apple VoiceOver), direct LEGO SPIKE Prime Hub compatibility from within VS Code, line highlighting, voice hotkeys, and audio flags.",
         "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
             {
                 "icon": "github",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "linkedin",
-                "link": "https://github.com/KyleMinter"
+                "link": "https://github.com/KyleMinter/Team-KJBK"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "typescript",
+                "text": "TypeScript"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "python",
+                "text": "Python"
             }
         ]
     },
     {
-        "title": "Project Title software",
-        "description": "some random words and shit",
+        "title": "SingleNote",
+        "description": "A web app intended to supply users with the ability to save and edit text documents to a remote server so that they are accessible on any device. Built using ASP.NET and Entity Framework for the backend, Google Sign-In for user authentication, and Angular for front end UI.",
         "thumbnail": "./content/images/software/IMG_7268.png",
         "icons":
         [
             {
                 "icon": "github",
                 "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "link": "https://github.com/KyleMinter"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "angular",
+                "text": "Angular"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": ".net",
+                "text": "ASP.NET"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "entityframework",
+                "text": "Entity Framework"
+            },
+            {
+                "icon": "googlesignin",
+                "text": "Google Sign-In"
             }
         ]
     },
     {
-        "title": "Project Title software",
-        "description": "some random words and shit",
+        "title": "AWS Backup Sync",
+        "description": "A cross compatible electron tray app that automatically watches and backup/syncs user specified directories to cloud storage. Utilizes React for user interface and leverages AWS S3 as a cloud storage provider.",
         "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
             {
                 "icon": "github",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "link": "https://github.com/KyleMinter"
+                "link": "https://github.com/KyleMinter/aws-backup-sync"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "typescript",
+                "text": "TypeScript"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "react",
+                "text": "React"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "aws",
+                "text": "AWS S3"
             }
         ]
     },
     {
-        "title": "Project Title software",
-        "description": "some random words and shit",
+        "title": "Mini Bot",
+        "description": "A simple Discord bot with the following major features:\n- General commands\n- User generated tags\n- Timezone registration\n- Blacklist filter",
         "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
             {
                 "icon": "github",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "github",
-                "link": "https://github.com/KyleMinter"
+                "link": "https://github.com/KyleMinter/mini-bot"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "icon": "python",
+                "text": "Python"
             },
             {
-                "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
-            },
+                "icon": "restapi",
+                "text": "Rest API"
+            }
+        ]
+    },
+    {
+        "title": "Batch Audio Extractor",
+        "description": "A simple WPF app leveraging FFmpeg to extract audio tracks from .mp4 files and export them as .wav files.",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
             {
                 "icon": "github",
-                "text": "GitHub",
-                "link": "https://github.com/KyleMinter"
+                "link": "https://github.com/KyleMinter/batch-audio-extractor"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": ".net",
+                "text": "C#"
+            },
+            {
+                "icon": "wpf",
+                "text": "WPF"
             }
         ]
     }

@@ -9,7 +9,7 @@ import './ProjectsContent.css';
 const renderCards = (content) => {
     const renderedIcons = content.icons.map((icons) => renderIcons(icons));
     const renderedIconBadges = content.iconBadges.map((iconBadges) => renderIconBadges(iconBadges));
-    
+
     return React.createElement(() => (
         <Container className="shadow-lg m-2 p-0 rounded-2 d-flex flex-column overflow-hidden text-start" style={{height: "20rem", maxWidth: "30rem",}}>
             <Container className="bg-primary p-0 flex-grow-0 flex-shrink-0 d-inline-block overflow-hidden position-relative" style={{height: "80%"}}>
@@ -28,7 +28,11 @@ const renderCards = (content) => {
                 </Container>
 
                 <Container className="sliding-gradient bg-primary px-3 py-2 h-100">
-                    <p>{content.description}</p>
+                    <p>
+                        {content.description.split('\n').map((paragraph) => (
+                            <span>{paragraph}<br /></span>
+                        ))}
+                    </p>
                 </Container>
             </span>
         </Container>
@@ -48,7 +52,7 @@ const renderIcons = (icons) => {
 // Renders the IconBadges for each of the project cards.
 const renderIconBadges = (iconBadges) => {
     return React.createElement(() => (
-        <IconBadge icon={iconBadges.icon} text={iconBadges.text} link={iconBadges.text} />
+        <IconBadge icon={iconBadges.icon} text={iconBadges.text} />
     ));
 };
 

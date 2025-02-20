@@ -1,12 +1,30 @@
 [
     {
-        "icon": "github",
-        "text": "C++",
-        "link": "https://github.com/KyleMinter"
+        "icon": "react",
+        "text": "React"
     },
     {
-        "icon": "github",
-        "text": "software",
-        "link": "https://github.com/KyleMinter"
+        "icon": "angular",
+        "text": "Angular"
+    },
+    {
+        "icon": "node.js",
+        "text": "Node.js"
+    },
+    {
+        "icon": ".net",
+        "text": "ASP.NET"
+    },
+    {
+        "icon": "aws",
+        "text": "AWS"
+    },
+    {
+        "icon": "postgresql",
+        "text": "PostgreSQL"
+    },
+    {
+        "icon": "sqlite",
+        "text": "SQLite"
     }
 ]
