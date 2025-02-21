@@ -4,7 +4,7 @@
 }
 
 .sliding-tab:hover {
-    transform: translateY(-14rem);
+    transform: translateY(-77%);
 }
 
 .sliding-tab:hover .sliding-gradient {
