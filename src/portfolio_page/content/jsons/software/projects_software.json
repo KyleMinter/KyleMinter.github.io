@@ -2,7 +2,7 @@
     {
         "title": "Mind Reader",
         "description": "A VS Code extension intended to provide an accessible experience to users with visual impairments to code Lego Mindstorms products. Includes screen reader compatibility (NVDA, JAWS, Apple VoiceOver), direct LEGO SPIKE Prime Hub compatibility from within VS Code, line highlighting, voice hotkeys, and audio flags.",
-        "thumbnail": "./content/images/software/josh.png",
+        "thumbnail": "./content/images/software/mind-reader-thumb.gif",
         "icons":
         [
             {
@@ -25,7 +25,7 @@
     {
         "title": "AWS Backup Sync",
         "description": "A cross compatible electron tray app that automatically watches and backup/syncs user specified directories to cloud storage. Utilizes React for user interface and leverages AWS S3 as a cloud storage provider.",
-        "thumbnail": "./content/images/software/josh.png",
+        "thumbnail": "./content/images/software/aws-backup-sync-thumb.gif",
         "icons":
         [
             {
@@ -52,7 +52,7 @@
     {
         "title": "SingleNote",
         "description": "A web app intended to supply users with the ability to save and edit text documents to a remote server so that they are accessible on any device. Built using ASP.NET and Entity Framework for the backend, Google Sign-In for user authentication, and Angular for front end UI.",
-        "thumbnail": "./content/images/software/IMG_7268.png",
+        "thumbnail": "./content/images/placeholder-thumb.png",
         "icons":
         [
             {
@@ -83,7 +83,7 @@
     {
         "title": "Mini Bot",
         "description": "A simple Discord bot with the following major features:\n- General commands\n- User generated tags\n- Timezone registration\n- Blacklist filter",
-        "thumbnail": "./content/images/software/josh.png",
+        "thumbnail": "./content/images/software/mini-bot-thumb.png",
         "icons":
         [
             {
@@ -106,7 +106,7 @@
     {
         "title": "Batch Audio Extractor",
         "description": "A simple WPF app leveraging FFmpeg to extract audio tracks from .mp4 files and export them as .wav files.\n\nThis app was mainly meant to be an introduction to WPF, as a result, the functionality is a bit limited and is not fully fleshed out.",
-        "thumbnail": "./content/images/software/josh.png",
+        "thumbnail": "./content/images/software/batch-audio-extractor-thumb.png",
         "icons":
         [
             {
