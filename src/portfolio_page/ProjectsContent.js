@@ -16,25 +16,28 @@ const renderCards = (content) => {
                 <img src={require(`${content.thumbnail}`)} alt="" className="object-fit-cover w-100 h-100"/>
             </Container>
 
-            <span className="sliding-tab flex-grow-0 flex-shrink-0 d-flex flex-column" style={{minHeight: "90%", height: "90%"}}>
-                <Container className="bg-dark px-2 d-flex align-items-center" style={{minHeight: "23%", height: "23%"}}>
+            <div className="bg-dark sliding-tab flex-grow-0 flex-shrink-0 d-flex flex-column" style={{minHeight: "90%", height: "90%"}}>
+                <Container className="bg-dark px-2 d-flex align-items-center border-bottom border-tertiary" style={{minHeight: "23%", height: "23%"}}>
                     <h4 className="px-2 m-0 flex-grow-1">{content.title}</h4>
                     <span className="fs-2 pb-1 px-3"><Icon icon={"arrowup"} /></span>
                 </Container>
 
-                <Container className="bg-dark border-top border-bottom border-tertiary p-1 d-flex">
-                    <div className="flex-grow-1">{renderedIconBadges}</div>
-                    <div className="d-flex flex-nowrap pt-1">{renderedIcons}</div>
-                </Container>
+                <div className="flex-grow-1 d-flex flex-column overflow-y-auto ">
+                    <div className="bg-dark border-bottom border-tertiary p-1 d-flex">
+                        <div className="flex-grow-1">{renderedIconBadges}</div>
+                        <div className="d-flex flex-nowrap pt-1">{renderedIcons}</div>
+                    </div>
 
-                <Container className="sliding-gradient bg-primary px-3 py-2 flex-grow-1 overflow-y-auto">
-                    <p className="mb-0">
-                        {content.description.split('\n').map((paragraph) => (
-                            <span>{paragraph}<br /></span>
-                        ))}
-                    </p>
-                </Container>
-            </span>
+                    <div className="sliding-gradient bg-primary px-3 py-2 flex-grow-1">
+                        <p className="mb-1">
+                            {content.description.split('\n').map((paragraph) => (
+                                <span>{paragraph}<br /></span>
+                            ))}
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
         </Container>
     ));
 };

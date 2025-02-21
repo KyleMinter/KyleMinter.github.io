@@ -51,7 +51,7 @@
     },
     {
         "title": "SingleNote",
-        "description": "A web app intended to supply users with the ability to save and edit text documents to a remote server so that they are accessible on any device. Built using ASP.NET and Entity Framework for the backend, Google Sign-In for user authentication, and Angular for front end UI.\nwasd\nwasd\nwasd",
+        "description": "A web app intended to supply users with the ability to save and edit text documents to a remote server so that they are accessible on any device. Built using ASP.NET and Entity Framework for the backend, Google Sign-In for user authentication, and Angular for front end UI.",
         "thumbnail": "./content/images/software/IMG_7268.png",
         "icons":
         [
