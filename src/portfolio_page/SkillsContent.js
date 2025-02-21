@@ -18,15 +18,15 @@ export default function SkillsContent({jsonContent})
 
     return (
         <Container fluid className="text-light">
-            <h3 className="display-5 my-0">Skills</h3>
-            
-            <hr className="my-1 mx-5"/>
+            <Container className="bg-dark py-2 mb-3 rounded-top border-bottom border-tertiary fw-bolder">
+                <h3 className="display-5">Skills</h3>
+            </Container>
 
             <Row className="row-cols-auto justify-content-center">
                 {renderedContent}
             </Row>
 
-            <hr className="my-1 mx-5"/>
+            <hr className="my-1"/>
         </Container>
     );
 }

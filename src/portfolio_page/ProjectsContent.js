@@ -43,9 +43,9 @@ const renderCards = (content) => {
 const renderIcons = (icons) => {
 
     return React.createElement(() => (
-        <h4 className="px-1">
+        <h3 className="px-1">
             <Icon icon={icons.icon} link={icons.link}/>
-        </h4>
+        </h3>
     ));
 };
 
@@ -62,15 +62,15 @@ export default function ProjectsContent({jsonContent})
 
     return (
         <Container fluid className="text-light mt-3">
-            <h3 className="display-5">Projects</h3>
-            
-            <hr className="my-1  mx-5"/>
+            <Container className="bg-dark py-2 mb-3 rounded-top border-bottom border-tertiary fw-bolder">
+                <h3 className="display-5">Projects</h3>
+            </Container>
 
             <div className="d-flex flex-wrap justify-content-center" style={{}}>
                 {renderedContent}
             </div>
 
-            <hr className="my-1  mx-5"/>
+            <hr className="my-1"/>
         </Container>
     );
 }

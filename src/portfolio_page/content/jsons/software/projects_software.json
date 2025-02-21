@@ -23,6 +23,33 @@
         ]
     },
     {
+        "title": "AWS Backup Sync",
+        "description": "A cross compatible electron tray app that automatically watches and backup/syncs user specified directories to cloud storage. Utilizes React for user interface and leverages AWS S3 as a cloud storage provider.",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "github",
+                "link": "https://github.com/KyleMinter/aws-backup-sync"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "typescript",
+                "text": "TypeScript"
+            },
+            {
+                "icon": "react",
+                "text": "React"
+            },
+            {
+                "icon": "aws",
+                "text": "AWS S3"
+            }
+        ]
+    },
+    {
         "title": "SingleNote",
         "description": "A web app intended to supply users with the ability to save and edit text documents to a remote server so that they are accessible on any device. Built using ASP.NET and Entity Framework for the backend, Google Sign-In for user authentication, and Angular for front end UI.",
         "thumbnail": "./content/images/software/IMG_7268.png",
@@ -54,33 +81,6 @@
         ]
     },
     {
-        "title": "AWS Backup Sync",
-        "description": "A cross compatible electron tray app that automatically watches and backup/syncs user specified directories to cloud storage. Utilizes React for user interface and leverages AWS S3 as a cloud storage provider.",
-        "thumbnail": "./content/images/software/josh.png",
-        "icons":
-        [
-            {
-                "icon": "github",
-                "link": "https://github.com/KyleMinter/aws-backup-sync"
-            }
-        ],
-        "iconBadges":
-        [
-            {
-                "icon": "typescript",
-                "text": "TypeScript"
-            },
-            {
-                "icon": "react",
-                "text": "React"
-            },
-            {
-                "icon": "aws",
-                "text": "AWS S3"
-            }
-        ]
-    },
-    {
         "title": "Mini Bot",
         "description": "A simple Discord bot with the following major features:\n- General commands\n- User generated tags\n- Timezone registration\n- Blacklist filter",
         "thumbnail": "./content/images/software/josh.png",
@@ -105,7 +105,7 @@
     },
     {
         "title": "Batch Audio Extractor",
-        "description": "A simple WPF app leveraging FFmpeg to extract audio tracks from .mp4 files and export them as .wav files.",
+        "description": "A simple WPF app leveraging FFmpeg to extract audio tracks from .mp4 files and export them as .wav files.\n\nThis app was mainly meant to be an introduction to WPF, as a result, the functionality is a bit limited and is not fully fleshed out.",
         "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
@@ -123,6 +123,10 @@
             {
                 "icon": "wpf",
                 "text": "WPF"
+            },
+            {
+                "icon": "cogwheel",
+                "text": "FFmpeg"
             }
         ]
     }

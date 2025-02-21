@@ -20,7 +20,7 @@ export default function PortfolioTabs()
     const baseClassNames = "py-3 bg-primary border border-subtle rounded-bottom"
 
     return (
-        <Container fluid>
+        <Container>
             <Tabs
                 fill
                 justify
