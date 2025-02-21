@@ -1,18 +1,18 @@
 [
     {
-        "icon": "github",
-        "text": "C++"
+        "icon": "blender",
+        "text": "Blender"
     },
     {
-        "icon": "github",
-        "text": "ld & env art"
+        "icon": "designer",
+        "text": "Substance esigner"
     },
     {
-        "icon": "github",
-        "text": "suuuuuuuuuuuuuuupppppppppeeeeeeeeeeeeer long name"
+        "icon": "painter",
+        "text": "Substance Painter"
     },
     {
-        "icon": "github",
-        "text": "suuuuuuuuuuuuuuupppppppppeeeeeeeeeeeeer long name"
+        "icon": "source",
+        "text": "Source Engine"
     }
 ]

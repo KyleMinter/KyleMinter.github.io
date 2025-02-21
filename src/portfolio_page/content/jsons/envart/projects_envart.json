@@ -1,38 +1,118 @@
 [
     {
-        "title": "Project Title envart",
-        "description": "some random words and shit",
-        "thumbnail": "./content/images/software/IMG_7268.png",
+        "title": "Stronghold",
+        "description": "A 5v5 defusal map set atop the mountains of Gibraltar, created for the 2024 Big Adventures Mapcore CS2 contest. Made in collaboration with 3 other people, I was responsible for custom materials, models, and environment art. Map placed within the top 10 among over 200 other submissions.",
+        "thumbnail": "./content/images/software/josh.png",
         "icons":
         [
             {
-                "icon": "typescript",
-                "link": "https://github.com/KyleMinter"
-            },
-            {
-                "icon": "typescript",
-                "link": "https://github.com/KyleMinter"
+                "icon": "steam",
+                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3262011327"
             }
         ],
         "iconBadges":
         [
             {
-                "icon": "github",
-                "text": "GitHub"
+                "icon": "source",
+                "text": "Source 2"
             },
             {
-                "icon": "github",
-                "text": "GitHub"
+                "icon": "blender",
+                "text": "Blender"
             },
             {
-                "icon": "github",
-                "text": "GitHub"
+                "icon": "designer",
+                "text": "Designer"
+            },
+            {
+                "icon": "painter",
+                "text": "Painter"
+            }
+        ]
+    },
+    {
+        "title": "Akiba",
+        "description": "A 5v5 defusal map set in Akihabara, Japan created for the newly released CS2. Made in collaboration with 3 other people, I was responsible for level design, modelling, and environment art. Map was featured on the FACEIT Mapcore Hub consisting of over 100 thousand players.",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "steam",
+                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3108513658"
+            },
+            {
+                "icon": "artstation",
+                "link": "https://www.artstation.com/artwork/Ry414W"
             }
         ],
-        "carouselImages":
+        "iconBadges":
         [
-            "./content/images/software/IMG_7268.png",
-            "./content/images/software/IMG_7268.png"
+            {
+                "icon": "source",
+                "text": "Source 2"
+            },
+            {
+                "icon": "blender",
+                "text": "Blender"
+            },
+            {
+                "icon": "painter",
+                "text": "Painter"
+            }
+        ]
+    },
+    {
+        "title": "Shred",
+        "description": "A 2v2 wingman map set in a skatepark located underneath a downtown city overpass. Made in collaboration with 1 other person, I was responsible for foundational level design, environment art, and models. Map was featured on the FACEIT Mapcore Hub consisting of over 100 thousand players.",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "steam",
+                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2922783093"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "source",
+                "text": "Source Engine"
+            },
+            {
+                "icon": "blender",
+                "text": "Blender"
+            },
+            {
+                "icon": "painter",
+                "text": "Painter"
+            }
+        ]
+    },
+    {
+        "title": "Acre",
+        "description": "A 5v5 insertion-style hostage rescue map set in a nondescript North American farm. This map was designed for a custom gamemode colloquially known as \"Hardcore.\" I was responsible for everything involved in the creation of the map, including level design, environment art, and models (excluding a few materials borrowed from a friend).",
+        "thumbnail": "./content/images/software/josh.png",
+        "icons":
+        [
+            {
+                "icon": "steam",
+                "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=2803423456"
+            }
+        ],
+        "iconBadges":
+        [
+            {
+                "icon": "source",
+                "text": "Source Engine"
+            },
+            {
+                "icon": "blender",
+                "text": "Blender"
+            },
+            {
+                "icon": "painter",
+                "text": "Painter"
+            }
         ]
     }
 ]
