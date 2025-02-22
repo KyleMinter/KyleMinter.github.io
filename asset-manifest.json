@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "./static/css/main.99f223e1.css",
-    "main.js": "./static/js/main.9746b6a6.js",
+    "main.js": "./static/js/main.21c0b5d7.js",
     "static/media/stronghold-thumb.png": "./static/media/stronghold-thumb.e44bf819ec5f51fdef76.png",
     "static/media/akiba-thumb.png": "./static/media/akiba-thumb.6c31cc4a887aa88203eb.png",
     "static/media/aws-backup-sync-thumb.gif": "./static/media/aws-backup-sync-thumb.00d1462a1bf2bdb0b27d.gif",
     "static/media/shred-thumb.png": "./static/media/shred-thumb.3fc3c7c976f53eadbc03.png",
     "static/media/acre-thumb.png": "./static/media/acre-thumb.a61b88b11699a7766094.png",
     "static/media/mind-reader-thumb.gif": "./static/media/mind-reader-thumb.10eed58ba84bd63e69f4.gif",
-    "static/media/placeholder-thumb.png": "./static/media/placeholder-thumb.11057453aadb50875dec.png",
+    "static/media/placeholder-thumb.png": "./static/media/placeholder-thumb.7098fdb3736a04fcc5de.png",
     "static/media/mini-bot-thumb.png": "./static/media/mini-bot-thumb.44fc2ff27e0bbd7085ef.png",
-    "static/media/batch-audio-extractor-thumb.png": "./static/media/batch-audio-extractor-thumb.566089e453729c362da8.png",
+    "static/media/batch-audio-extractor-thumb.png": "./static/media/batch-audio-extractor-thumb.476afb733893a8abaad7.png",
     "index.html": "./index.html",
     "main.99f223e1.css.map": "./static/css/main.99f223e1.css.map",
-    "main.9746b6a6.js.map": "./static/js/main.9746b6a6.js.map"
+    "main.21c0b5d7.js.map": "./static/js/main.21c0b5d7.js.map"
   },
   "entrypoints": [
     "static/css/main.99f223e1.css",
-    "static/js/main.9746b6a6.js"
+    "static/js/main.21c0b5d7.js"
   ]
 }
