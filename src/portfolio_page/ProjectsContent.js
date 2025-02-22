@@ -11,7 +11,7 @@ const renderCards = (content) => {
     const renderedIconBadges = content.iconBadges.map((iconBadges) => renderIconBadges(iconBadges));
 
     return React.createElement(() => (
-        <Container className="shadow-lg m-2 p-0 rounded-2 d-flex flex-column overflow-hidden text-start" style={{aspectRatio: "3 / 2", maxheight: "20rem", maxWidth: "30rem",}}>
+        <Container className="shadow-lg m-2 p-0 rounded-2 d-flex flex-column overflow-hidden text-start" style={{height: "20rem", maxheight: "20rem", maxWidth: "30rem",}}>
             <Container className="bg-primary p-0 flex-grow-0 flex-shrink-0 d-inline-block overflow-hidden position-relative" style={{height: "80%"}}>
                 <img src={require(`${content.thumbnail}`)} alt="" className="object-fit-cover w-100 h-100"/>
             </Container>
